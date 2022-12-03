@@ -1,0 +1,19 @@
+.mobile-text{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .mobile-text{
+        display: block;
+    }
+    .mobile-text a{
+        font-weight: 900;
+        color: inherit; /* herda a color do pai */
+    }
+    .icon{
+        color: var(--text-color-dark);
+    }
+    .form-button{
+        padding: 5px;
+    }
+}

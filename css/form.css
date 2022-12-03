@@ -1,0 +1,41 @@
+.form{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 0px;
+    transition: 1s;
+    background-color: var(--secundary-color);
+}
+.form-register{
+    transform: translateX(-100%);
+    z-index: -1;
+    opacity: 0;
+}
+.login-container.move .form-login{
+    transform: translateX(100%);
+}
+.login-container.move .form-register{
+    transform: translateX(0%);
+    z-index: 1;
+    opacity: 1;
+}
+@media (max-width: 768px){
+    .form{
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+    .form-register{
+        position: absolute;
+        transform: translateX(100%);
+        background-color: var(--primary-color);
+        color: var(--secundary-color);
+    }
+    .login-container.move .form-register{
+        transform: translateX(0%);
+    }
+    
+}

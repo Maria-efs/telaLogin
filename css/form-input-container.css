@@ -1,0 +1,26 @@
+.label-input{
+    background-color: var(--icon-color);
+    padding: 0px 10px;
+}
+
+.form-input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.form-input{
+    width: 300px;
+    height: 40px;
+    padding: 10px 20px;
+    border-style: none;
+    background-color: var(--icon-color);
+}
+.label-input:hover{
+    border: 1px solid #bdc3c7;
+}
+/* Removendo a borda do input ao ser clicado */
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
