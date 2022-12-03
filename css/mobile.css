@@ -17,3 +17,13 @@
         padding: 5px;
     }
 }
+@media (max-width: 340px) {
+    .form-input{
+        width: 95%;
+    }
+    .label-input{
+        padding: 0px 10px;
+        display: flex;
+        align-items: center;
+    }
+}

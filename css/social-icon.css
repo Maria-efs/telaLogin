@@ -1,3 +1,8 @@
+.form-midias{
+    display: flex;
+    gap: 24px;
+}
+
 .midia-icon{
     display: flex;
     height: 40px;
