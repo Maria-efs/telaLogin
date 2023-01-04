@@ -1,6 +1,9 @@
 .label-input{
     background-color: var(--icon-color);
     padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-input-container{
@@ -23,4 +26,9 @@
 input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
+}
+
+/* Ocultar senha */
+.icon{
+    margin: 2px;
 }
